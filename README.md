@@ -18,4 +18,4 @@
 - каждая размещенная вакансия имеет счетчик заинтересованных соискателей, видимый всем пользователям
 
 ## База
-![image](https://user-images.githubusercontent.com/103988009/197540968-9888e063-8b31-4bb6-8fda-b374af7c71f4.png)
+![image](https://user-images.githubusercontent.com/103988009/198255631-b0c854a3-6baa-432e-ae4a-8e5d964a7508.png)
