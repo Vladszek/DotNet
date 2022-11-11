@@ -26,6 +26,12 @@
             Services extensions
             </summary>
         </member>
+        <member name="M:jobFinder.WebAPI.AppConfiguration.ServicesExtensions.ServicesExtensions.AddDbContextConfiguration(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Add serilog configuration
+            </summary>
+            <param name="builder"></param>
+        </member>
         <member name="M:jobFinder.WebAPI.AppConfiguration.ServicesExtensions.ServicesExtensions.AddSerilogConfiguration(Microsoft.AspNetCore.Builder.WebApplicationBuilder)">
             <summary>
             Add serilog configuration
@@ -43,6 +49,44 @@
             Configure versioning
             </summary>
             <param name="services"></param>
+        </member>
+        <member name="T:filmsRating.WebAPI.Controller.UserEmployeeController">
+            <summary>
+            Users endpoints
+            </summary>
+        </member>
+        <member name="M:filmsRating.WebAPI.Controller.UserEmployeeController.#ctor(jobFinder.Repository.IRepository{jobFinder.Entities.Models.UserEmployee})">
+            <summary>
+            Users controller
+            </summary>
+        </member>
+        <member name="M:filmsRating.WebAPI.Controller.UserEmployeeController.GetUsers">
+            <summary>
+            Get users
+            </summary>
+        </member>
+        <member name="M:filmsRating.WebAPI.Controller.UserEmployeeController.GetUser(System.Guid)">
+            <summary>
+            Get user
+            </summary>
+        </member>
+        <member name="M:filmsRating.WebAPI.Controller.UserEmployeeController.SaveUser(jobFinder.Entities.Models.UserEmployee)">
+            <summary>
+            Save user
+            </summary>
+            <param name="user"></param>
+        </member>
+        <member name="M:filmsRating.WebAPI.Controller.UserEmployeeController.DeleteUser(jobFinder.Entities.Models.UserEmployee)">
+            <summary>
+            Delete user
+            </summary>
+            <param name="user"></param>
+        </member>
+        <member name="M:filmsRating.WebAPI.Controller.UserEmployeeController.ReplaceUser(jobFinder.Entities.Models.UserEmployee)">
+            <summary>
+            Replace user
+            </summary>
+            <param name="user"></param>
         </member>
     </members>
 </doc>

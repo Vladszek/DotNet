@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jobFinder.WebAPI", "jobFinder.WebAPI\jobFinder.WebAPI.csproj", "{B2852F3B-ED51-4FD0-B583-B21BC777188F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jobFinder.Entities", "jobFinder.Entities\jobFinder.Entities.csproj", "{73E97D7D-063A-4916-B2B3-9A59FD8BF1BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jobFinder.Repository", "jobFinder.Repository\jobFinder.Repository.csproj", "{676EF7C4-3C01-46A4-B507-2571B9D30440}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{B2852F3B-ED51-4FD0-B583-B21BC777188F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2852F3B-ED51-4FD0-B583-B21BC777188F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2852F3B-ED51-4FD0-B583-B21BC777188F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73E97D7D-063A-4916-B2B3-9A59FD8BF1BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73E97D7D-063A-4916-B2B3-9A59FD8BF1BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73E97D7D-063A-4916-B2B3-9A59FD8BF1BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73E97D7D-063A-4916-B2B3-9A59FD8BF1BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{676EF7C4-3C01-46A4-B507-2571B9D30440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{676EF7C4-3C01-46A4-B507-2571B9D30440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{676EF7C4-3C01-46A4-B507-2571B9D30440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{676EF7C4-3C01-46A4-B507-2571B9D30440}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
